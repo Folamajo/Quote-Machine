@@ -1,0 +1,78 @@
+:root{
+   /* Creating a variable called bodyColor */
+   --bodyColor: gray;
+   /* transition: color 1s; */
+
+}
+
+body{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   font-family: "Arial", sans-serif;
+   /* Sets our background color based on App.js */
+   background-color: var(--bodyColor);
+   transition: background-color 1.5s,
+}
+
+
+#quote-box{
+   border: 1px dotted gray;
+   padding: 3em;
+   width: 30em;
+   border-radius: 0.2em;
+   /* text-align: center; */
+}                      
+
+#buttons{
+   display: flex;
+   justify-content: space-between;
+}
+
+#author{
+   margin-left: auto;
+}
+
+#quote{
+   display: flex;
+   flex-direction: column;
+}
+#text{
+   text-align: center;
+}
+
+#links{
+   display: flex;
+   gap: 0.3em;
+}
+
+#text{
+   font-size: 1.8em;
+   font-weight: bold;
+}
+
+#author{
+   font-weight: thin;
+}
+
+button{
+   height: 2.4em;
+   width: 2.4em;
+}
+
+#new-quote{
+   width: 7em;
+   height: 2.4em;
+}
+
+#buttons{
+   margin-top:1em;
+}
+
+#footer{
+   font-size: 0.7em;
+   color: white;
+   text-align: center;
+
+}
